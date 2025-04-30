@@ -1,0 +1,194 @@
+// 1. Operation on numbers : You are given a number , stored in a variable with the name number. Perform the following operations on the value stored in the number.
+/*
+1.Multiply the value by 7
+2.Add 7 after it
+3.Subtract 10 from it
+*/
+
+function operationOnNumbers(number) {
+    // Write code here
+
+    let ans = (number*7) + 7;
+    console.log(ans-10);
+
+}
+
+
+// 2. Square it : You are given an integer N, print its square value.
+
+function squareIt(N) {
+    // Write code here
+
+    let square = (N**2);
+    console.log(square);
+}
+
+
+// 3. Find product : You are given five numbers stored in variables with the following names - one, two, three, four, five. Find the product of the five values, and print it.
+
+function findProduct(one, two, three, four, five) {
+    // Write code here
+
+    let prod = (one*two*three*four*five);
+    console.log(prod);
+}
+
+
+// 4. Double all : You are given five numbers, stored in the variables with the following names - one, two, three, four, five. All the values are doubled, that is, they are multiplied by 2.
+
+function doubleAll(one, two, three, four, five) {
+    // Write code here
+
+    let dob = (one*two*three*four*five) * 2;
+    console.log(dob);
+}
+
+
+// 5. Double Two Triple One : You are given four numbers, stored in the variables with the following names - one, two, three, four. Perform the following operations on the four numbers (a.The value stored in one and two is doubled, such that, if it was initially 2, it becomes 4) , (b.The value stored in three is multiplied by 3, such that, if it was 4, it becomes 12) , (c.The value stored in four, is increased by 4, such that if it was 7 initially, it becomes 11). Find the sum of the values stored in one, two, three, four, after the above operations are performed.
+
+function doubleTwoTripleOne(one, two, three, four) {
+    // Write code here
+
+    let a = (one+two)*2;
+    let b = three*3;
+    let c = four+4;
+    console.log(a+b+c);
+}
+
+
+// 6. Seven Numbers : You are given 7 numbers A, B, C, D, E, F, G. Find the product of (A+B+C) and (D+E+F+G).
+
+function sevenNumber(A, B, C, D, E, F, G) {
+    // Write code here
+    
+    let a = (A+B+C);
+    let b = (D+E+F+G);
+    console.log(a*b);
+}
+
+
+// 7. Find X again : Given a value of X, find the final value of X, if multiplied by 7 twice.
+
+function findX(x) {
+    // Write code here 
+    
+    let a = X * 7;
+    console.log(X*7);
+}
+
+
+// 8. Infinity Stones : You are given five numbers, stored in variables with the following names - one, two, three, four, five, six. The value stored in the variable two, five, six has been doubled, such that if it initially the value was 3, it has become 6. The value stored in the variable three, four has been increased three times, such that if initially it was 3, it has become 9. The value stored in the variable one has not been changed. Find the sum of the updated values stored in one, two, three, four, five, six.
+
+function infinityStones(one, two, three, four, five, six) {
+    //Write code here
+    
+    let a = (two, five, six) * 2;
+    let b = (three, four) * 3;
+    console.log(one+two+three+four+five+six);
+}
+
+
+// 9. Update & Compare : You are given two numbers, stored in variables with the names num1 and num2. Print the output of the following operation - num1 > num2, this prints true if num1 is greater than num2, else it prints false. After this operation is performed, another number, stored in variable with the number num3 is added to num1. After this, print the result of the following operation again - num1 > num2, this prints true if num1 is greater than num2, else it prints false.
+
+function updateAndCompare(num1, num2, num3) {
+    // Write code here  
+
+    if (num1 > num2) {
+        console.log("num1 is greater than")
+    }
+    else {
+        console.log("false");
+    }
+
+    let num1= num1 + num2;
+    if (num1> num2) {
+        console.log("num1 is greater than");
+    } else {
+        console.log("false");
+    }
+}
+
+
+// 10. Compare two Numbers : You are given two numbers stored in two variables, with the name, num1 and num2. Print the results of the following operations -
+/*
+1. num1 > num2 -> this operation prints true, if num1 is greater than num2, otherwise it prints false.
+2. num1 < num2 -> this operation prints true, if num1 is smaller than num2, otherwise it prints false.
+3. num1 == num2 -> this operation prints true, if num1 is equal to num2, otherwise it prints false.
+*/
+function compareTwoNumbers(num1, num2) {
+    // Write code here
+
+    if (num1 > num2){
+        console.log("num1 is greater than num2.");
+    } else if (num1 < num2){
+        console.log("num1 is smaller than num2.");
+    } else if (num1 == num2){
+        console.log("num1 is equal to num2.");
+    } else {
+        console.log("false.");
+    }
+  }
+
+
+  // 11. You are given five numbers, stored in the variables with the following name - one, two, three, four, five. You have to declare another variable sum1, such that sum1 = one + two + three. Also, you have to declare another variable sum2, such that sum2 = four + five. Finally, you have to print the output in the following operation - sum1 > sum2 (This operation prints true, if sum1 is greater than sum2, else it prints false.
+
+  function sumAndCompare(one, two, three, four, five) {
+    // Write code here
+
+    let sum1 = one+two+three;
+    let sum2 = four+five;
+
+    if (sum1 > sum2){
+        console.log("sum1 is greater than sum2");
+    } else {
+        console.log("false");
+    }
+}
+
+
+// 12. Compare Seven Numbers : You are given seven numbers, stored in the variable with the following names - a,b,c,d,e,f,g. You have to declare two variables, sum1 and sum2, such that sum1 = (a+b) * c and sum2 = (d+e+f+g). print the output of the following operation - sum1 > sum2.
+
+function compareSevenNumbers(a,b,c,d,e,f,g) {
+    // Write code here
+
+    let sum1 = (a+b) * c;
+    let sum2 = (d+e+f+g);
+
+    num1 > num2 ? true : false;
+}
+
+
+// 13. Area and Perimeter : You are given the sides of the rectangle 1:L1 and B1 and sides of the rectangle 2:L2 and B2. You need to print if area of rectangle 1 is greater than area of rectangle 2. You need to print if perimeter of rectangle 1 is greater than perimeter of rectangle 2.
+
+function areaAndPerimeter(L1,B1,L2,B2) {
+    //write code here
+
+    let area_1 = L1 * B1;
+    let perimeter_1 = 2*(L1+L2);
+
+    let area_2 = L2 * B2;
+    let perimeter_2 = 2*(L2+B2);
+
+    area_1 > area_2 == true;
+    console.log("area1");
+
+    perimeter_1 > perimeter_2 == true;
+    console.log("perimeter2");
+}
+
+
+// 14. Cube and Square : You are given two numbers n and m, you need to check if cube of n is greater than square of m.
+
+function cubeAndSquare(n,m) {
+    //write code here
+
+    let cube_of_n = n**3;
+    let square_of_m = m**1;
+
+    if (cube_of_n > square_of_m){
+        console.log("hell yeah");
+    } else {
+        console.log("no");
+    }
+}
+  
