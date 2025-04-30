@@ -1,0 +1,94 @@
+// Problem 1
+// Print "Masai School" in the console followed by "A Transformation in Education" in next line.
+
+// Solution :
+
+console.log("Masai School");
+console.log("A Transformation in Education");
+
+-----------------------------------------------------------------------------
+
+// Problem 2
+/* Define a variable called name with your Name as the assigned value
+Print the value stored in the variable name
+Change the variable to store your father's name
+Print the value stored in the variable name
+Change the variable again to store your mother's name.
+Print the value stored in the variable name */
+
+// Solution :// Problem 4
+/* Store the name, school, grade, section, rollno and the marks scored by the student in 3 subjects
+Print the report card of the student (You can make it look nice by using some keyboard symbols )
+Explore ASCII ART (https://en.wikipedia.org/wiki/ASCII_art (Links to an external site.)) or Text Art (https://fsymbols.com/text-art/ (Links to an external site.)) for some inspiration */
+
+// Solution :
+
+// Store student data
+let name = "John Doe";
+let school = "Greenwood High School";
+let grade = "10th";
+let section = "A";
+let rollno = "12345";
+
+// Marks scored in 3 subjects
+let math_marks = 99;
+let science_marks = 98;
+let english_marks = 97;
+
+// Calculate total marks and percentage
+let total_marks = math_marks + science_marks + english_marks;
+let percentage = (total_marks / 300) * 100;
+
+// Print report card
+console.log("+-----------------------------------------+");
+console.log("|           REPORT CARD                  |");
+console.log("+-----------------------------------------+");
+
+console.log("+-----------------------------------------+");
+console.log("|            STUDENT DETAILS               |");
+console.log("+-----------------------------------------+");
+console.log("|     Name: " + name);
+console.log("|     School: " + school);
+console.log("|     Grade: " + grade);
+console.log("|     Section: " + section);
+console.log("|     Roll No: " + rollno);
+
+console.log("+-----------------------------------------+");
+console.log("|           SUBJECT MARKS                 |");
+console.log("+-----------------------------------------+");
+console.log("|     Math: " + math_marks);
+console.log("|     Science: " + science_marks);
+console.log("|     English: " + english_marks);
+console.log(" +-----------------------------------------+");
+console.log("|     Total Marks: " + total_marks);
+console.log("|     Percentage: " + percentage + "%");
+console.log(" +-----------------------------------------+");
+
+console.log("🏆 Excellent Performance! Keep it up! 🏆");
+
+
+let name = "Boruto";
+console.log(name);
+
+name = "Naruto";
+console.log(name);
+
+name = "Hinata";
+console.log(name);
+
+------------------------------------------------------------------------------
+
+// Problem 3
+/* Create a variable name to store your name
+Create a variable age to store your age
+Concatenate and console them in a new string to get the output like this : ("My name is"+ name +"and my age is"+ age +".") */
+
+// Solution :
+
+let name = "Manjit Sarkar";
+let age = 24;
+
+console.log("My name is " + name + " and my age is " + age + ".");
+
+--------------------------------------------------------------------------------
+
